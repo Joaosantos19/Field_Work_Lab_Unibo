@@ -4,15 +4,15 @@ This was a Churn project of the Fild Work Lab class in my master of Data Science
 Overall, data give a full picture of the company's entire customer base as of 2015.
 This is to say that we are able to observe all clients with an active contract in 2015 end their complete contracts history until 2020.
 
-CLIENT
-Dataset containing anagraphical information on the clients as of december 2020
-COD_TIPO_PERSONA: Client Type
-ANZIANITA_ATTIVA: active seniority of the client
-NUMERO_SINISTRI: overall number of accidents
-PROV_RES: province of residence
-RATING: risk rating
-COD_GEND_PF: gender
-FIGLI: Flag for children in the household
+**CLIENT**
+- Dataset containing anagraphical information on the clients as of december 2020;
+- COD_TIPO_PERSONA: Client Type
+- ANZIANITA_ATTIVA: active seniority of the client
+- NUMERO_SINISTRI: overall number of accidents
+- PROV_RES: province of residence
+- RATING: risk rating
+- COD_GEND_PF: gender
+- FIGLI: Flag for children in the household
 FLG_APP: Flag for use of the mobile application
 SUM_IMP_PREMIO_CTTO: sum of premia paid by the client to the insurance company
 ID_CLIENTE: identification number of the client
