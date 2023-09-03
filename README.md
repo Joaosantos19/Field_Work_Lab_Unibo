@@ -5,7 +5,7 @@ Overall, data give a full picture of the company's entire customer base as of 20
 This is to say that we are able to observe all clients with an active contract in 2015 end their complete contracts history until 2020.
 
 **CLIENT**
-- Dataset containing anagraphical information on the clients as of december 2020;
+Dataset containing anagraphical information on the clients as of december 2020
 - COD_TIPO_PERSONA: Client Type
 - ANZIANITA_ATTIVA: active seniority of the client
 - NUMERO_SINISTRI: overall number of accidents
@@ -13,31 +13,32 @@ This is to say that we are able to observe all clients with an active contract i
 - RATING: risk rating
 - COD_GEND_PF: gender
 - FIGLI: Flag for children in the household
-FLG_APP: Flag for use of the mobile application
-SUM_IMP_PREMIO_CTTO: sum of premia paid by the client to the insurance company
-ID_CLIENTE: identification number of the client
-ANNO_NASC_PF: year of birth of the client
+- FLG_APP: Flag for use of the mobile application
+- SUM_IMP_PREMIO_CTTO: sum of premia paid by the client to the insurance company
+- ID_CLIENTE: identification number of the client
+- ANNO_NASC_PF: year of birth of the client
 
-CONTRACT
-Dataset containing information on the contracts with the perimeter as of december 2020
-ID_CLIENTE: identification number of the client
-CANALE_PROV: channel of purchase
-RISCHIO: risk type
-PRODOTTO: product type
-STATO: status of the contract
-SIT ASSUN: underwriting condition
-NUM_RATE: number of installments
-MODALITA_PAGAMENTO_STIPULA: payment modality at underwriting
-MODALITA_PAGAMENTO_RATE: payment modality at installments
-RAGG_BUSINESS: business grouping
-AMT_PREMIO_RCA: premium amount of the RCA component (RCA: Responsabilità Civile Autoveicoli)
-SCONTO_TOT_RCA: overall discount on the RCA component
-AMT_PREMIO_CTTO: premium amount of the contract
-AMT_SCONTO_CTTO: discount amount of the contract
-GAR_[...]: set of warranty indicators
-CONTRACT_CODE: key identifier of the contract
+**CONTRACT**
+<i>Dataset containing information on the contracts with the perimeter as of december 2020</i>
 
-CONTRACT_DATES
+- ID_CLIENTE: identification number of the client
+- CANALE_PROV: channel of purchase
+- RISCHIO: risk type
+- PRODOTTO: product type
+- STATO: status of the contract
+- SIT ASSUN: underwriting condition
+- NUM_RATE: number of installments
+- MODALITA_PAGAMENTO_STIPULA: payment modality at underwriting
+- MODALITA_PAGAMENTO_RATE: payment modality at installments
+- RAGG_BUSINESS: business grouping
+- AMT_PREMIO_RCA: premium amount of the RCA component (RCA: Responsabilità Civile Autoveicoli)
+- SCONTO_TOT_RCA: overall discount on the RCA component
+- AMT_PREMIO_CTTO: premium amount of the contract
+- AMT_SCONTO_CTTO: discount amount of the contract
+- GAR_[...]: set of warranty indicators
+- CONTRACT_CODE: key identifier of the contract
+
+**CONTRACT_DATES**
 Dataset containing information on relevant dates of the contracts
 DAT_DECORRENZA: effective date (date since when the contract is effective)
 DAT_CHIUSURA: closing date (when the contract has been closed by the client)
